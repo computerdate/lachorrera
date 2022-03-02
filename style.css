@@ -1,0 +1,52 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    user-select: none;
+    margin: 0 auto; 
+    font-family: sans-serif;
+    overflow: hidden;
+  }
+  
+
+
+  
+  body {
+    background-color: none;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    place-items: center center;
+    margin: 0 auto; 
+  }
+  
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -100;
+  }
+
+  #botonmenu{
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    max-width: fit-content;
+    display: block;
+    background-color: transparent;
+    border: none;
+    z-index: 900;
+  }
+
+  #botonmenu:hover{
+    filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
+    /*
+    box-shadow: inset 0px 0px 5rem 0.5rem  rgb(255, 255, 255) ,  0px 0px 5rem 1.7rem  rgb(255, 255, 255);
+    */
+}

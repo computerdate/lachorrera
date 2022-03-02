@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+<title> La Chorrera: Autores </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="og:title" property="og:title" content="La Chorrera" />
+<meta name="og:description" property="og:description" content="" />
+<meta property="og:image" content="" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<link rel="shortcut icon" href="./assets/Botón Casa.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+
+
+
+<body>
+
+  
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+  
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+</body>
+</html>

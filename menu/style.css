@@ -1,0 +1,79 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  user-select: none;
+  margin: 0 auto; 
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+body {
+  background-color: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  place-items: center center;
+  margin: 0 auto; 
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -900;
+}
+
+#botonrio{
+  position: absolute;
+  top: 3%;
+  left: 30%;
+  max-width: fit-content;
+  height: auto;
+  display: block;
+  background-color: transparent;
+  border: none;
+  z-index: 0;
+}
+
+#botoncasa{
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  max-width: fit-content;
+  display: block;
+  background-color: transparent;
+  border: none;
+  z-index: 0;
+}
+
+#botonselva{
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  max-width: fit-content;
+  display: block;
+  background-color: transparent;
+  border: none;
+  z-index: 0;
+}
+
+#botoncomunidad{
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+  max-width: fit-content;
+  display: block;
+  background-color: transparent;
+  border: none;
+  z-index: 0;
+}
+
+#botonrio:hover, #botoncasa:hover, #botonselva:hover, #botoncomunidad:hover {
+  filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
+}
