@@ -8,9 +8,6 @@
   /*overflow: hidden;*/
 }
 
-
-
-
 body {
   background-color: black;
   background-size: contain;
@@ -22,7 +19,6 @@ body {
   place-items: center center;
   margin: 0 auto; 
 }
-
 
 img {
   max-width: 100%;
@@ -49,128 +45,121 @@ img {
   transition: 0.3s;
 }
 
-#familia_i0{
+/*
+.vimeo-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  
+}
+.vimeo-wrapper0 iframe {
+  width: 56.25vw;
+  height: 29.6vw;
+  min-height: 30vh;
+  min-width: 14.0625vh;
+  position: fixed;
+  top: 20vh;
+  left: 18vw;
+  padding: 30px;
+  
+}
+*/
+
+
+#mambe_i1{
   position: absolute;
   padding: 1%;
-  left: 56%;
-  max-width: 24%;
-  top: 6%;
+  left: 40%;
+  max-width: 25%;
+  top: 3%;
   right: auto;
   z-index: 100;
 }
 
-#familia_i1{
+
+#mambe_v1{
+  position: absolute;
+  padding: 1%;
+  left: 5%;
+  max-width: 16%;
+  top: 26%;
+  right: auto;
+  z-index: 100;
+}
+
+
+#mambe_t1{
+  font-family: sans-serif;
+  font-size: 0.5vw;
+  color: white;
+  background-color: black;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 0.3%;
+  left:6%;
+  max-width: 40%;
+  top: 80%;
+  right: auto;
+}
+
+#mambe_t2{
+  font-family: sans-serif;
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 2%;
+  left:64%;
+  max-width: 27%;
+  top: 30%;
+  right: auto;
+}
+
+#mambe_t3{
+  font-family: sans-serif;
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 2%;
+  left: 44%;
+  max-width: 50%;
+  top: 140%;
+  right: auto;
+}
+
+
+#mambe_t4{
+  font-family: sans-serif;
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 2%;
+  left: 54%;
+  max-width: 32%;
+  top: 288%;
+  right: auto;
+}
+
+#mambe_i2{
   position: absolute;
   padding: 1%;
   left: 10%;
-  max-width: 38%;
-  top: 10%;
-  right: auto;
-  z-index: 100;
-}
-
-#familia_t1{
-  font-size: 0.7vw;
-  color: black;
-  background-color: white;
-  text-align: left;
-  line-height: 1.3;
-  position: absolute;
-  padding: 2%;
-  left:56%;
-  max-width: 32%;
-  top: 28%;
-  right: auto;
-}
-
-
-#familia_i2{
-  position: absolute;
-  padding: 1%;
-  left: 6%;
-  max-width: 60%;
-  top: 140%;
-  right: auto;
-  z-index: 100;
-}
-
-#familia_t2{
-  font-size: 0.7vw;
-  color: black;
-  background-color: white;
-  text-align: left;
-  line-height: 1.3;
-  position: absolute;
-  padding: 2%;
-  left:56%;
-  max-width: 32%;
-  top: 130%;
-  right: auto;
-  z-index: 200;
-}
-
-#familia_t3_1{
-  font-size: 0.7vw;
-  color: black;
-  background-color: white;
-  text-align: left;
-  line-height: 1.3;
-  position: absolute;
-  padding: 2%;
-  left:2%;
-  max-width: 32%;
-  top: 290%;
-  right: auto;
-}
-
-#familia_t3_2{
-  font-size: 0.7vw;
-  color: black;
-  background-color: white;
-  text-align: left;
-  line-height: 1.3;
-  position: absolute;
-  padding: 2%;
-  left:62%;
-  max-width: 32%;
-  top: 310%;
-  right: auto;
-}
-
-#familia_t4{
-  font-size: 0.7vw;
-  color: black;
-  background-color: white;
-  text-align: left;
-  line-height: 1.3;
-  position: absolute;
-  padding: 2%;
-  left:58%;
-  max-width: 32%;
-  top: 440%;
-  right: auto;
-}
-
-#familia_i5{
-  position: absolute;
-  padding: 1%;
-  left: 16%;
-  max-width: 70%;
-  top:560%;
-  right: auto;
-  z-index: 100;
-}
-
-#familia_t6{
-  font-size: 0.7vw;
-  color: black;
-  background-color: white;
-  text-align: left;
-  line-height: 1.3;
-  position: absolute;
-  padding: 2%;
-  left:36%;
   max-width: 40%;
-  top: 690%;
+  top: 280%;
   right: auto;
+  z-index: 100;
 }

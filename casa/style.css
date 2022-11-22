@@ -4,7 +4,7 @@
   -moz-user-select: -moz-none;
   user-select: none;
   margin: 0 auto; 
-  font-family: sans-serif;
+  font-family: 'Inconsolata', monospace;
   /*overflow: hidden;*/
 }
 
@@ -47,4 +47,155 @@ img {
   padding: 15px;
   border-radius: 4px;
   transition: 0.3s;
+}
+
+#casa_i1{
+  position: absolute;
+  padding: 1%;
+  left: 40%;
+  max-width: 38%;
+  top: 3%;
+  right: auto;
+  z-index: 100;
+}
+
+#casa_t1{
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 2%;
+  left:23%;
+  max-width: 25%;
+  top: 32%;
+  right: auto;
+}
+
+
+#casa_l1{
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: auto;
+  position: absolute;
+  padding: 0.5%;
+  left: auto;
+  max-width: 25%;
+  top: 55%;
+  right: 19%;
+}
+
+#casa_t2{
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 2%;
+  left:10%;
+  max-width: 27%;
+  top: 162%;
+  right: auto;
+}
+
+#casa_t3{
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 2%;
+  left:7%;
+  max-width: 27%;
+  top: 288%;
+  right: auto;
+}
+
+
+#casa_l3_conversacion{
+  position: absolute;
+  padding: 1%;
+  left: 55%;
+  max-width: 25%;
+  top: 288%;
+  right: auto;
+  z-index: 100;
+}
+
+
+#casa_l3_mambe{
+  position: absolute;
+  padding: 1%;
+  left: 72%;
+  max-width: 25%;
+  top: 300%;
+  right: auto;
+  z-index: 100;
+}
+
+
+#casa_l3_alimento{
+  position: absolute;
+  padding: 1%;
+  left: 50%;
+  max-width: 25%;
+  top: 320%;
+  right: auto;
+  z-index: 100;
+}
+
+
+#casa_l3_lenguaje{
+  position: absolute;
+  padding: 1%;
+  left: 75%;
+  max-width: 25%;
+  top: 342%;
+  right: auto;
+  z-index: 100;
+}
+
+
+#casa_v4{
+  position: absolute;
+  padding: 1%;
+  left: 25%;
+  max-width: 25%;
+  top: 420%;
+  right: auto;
+  z-index: 100;
+}
+
+
+#casa_t4{
+  font-size: 0.5vw;
+  color: white;
+  background-color: black;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 0.3%;
+  left:26%;
+  max-width: 40%;
+  top: 482%;
+  right: auto;
+}
+
+#casa_t5{
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 2%;
+  left:58%;
+  max-width: 27%;
+  top: 590%;
+  right: auto;
 }

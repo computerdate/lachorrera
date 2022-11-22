@@ -4,7 +4,7 @@
   -moz-user-select: -moz-none;
   user-select: none;
   margin: 0 auto; 
-  font-family: sans-serif;
+  font-family: 'Inconsolata', monospace;
   /*overflow: hidden;*/
 }
 
@@ -47,4 +47,146 @@ img {
   padding: 15px;
   border-radius: 4px;
   transition: 0.3s;
+}
+
+
+
+#selva_i1{
+  position: absolute;
+  padding: 1%;
+  left: 33%;
+  max-width: 38%;
+  top: 3%;
+  right: auto;
+  z-index: 100;
+}
+
+#selva_t1{
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 2%;
+  left:60%;
+  max-width: 32%;
+  top: 28%;
+  right: auto;
+}
+
+#selva_v1{
+  position: absolute;
+  padding: 1%;
+  left: 15%;
+  max-width: 25%;
+  top: 28%;
+  right: auto;
+  z-index: 100;
+}
+
+#selva_t1_2{
+  font-size: 0.5vw;
+  color: white;
+  background-color: black;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 0.3%;
+  left:16%;
+  max-width: 40%;
+  top: 70%;
+  right: auto;
+}
+
+
+#selva_t2{
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 2%;
+  left:30%;
+  max-width: 38%;
+  top: 150%;
+  right: auto;
+}
+
+#selva_v3{
+  position: absolute;
+  padding: 1%;
+  left: 24%;
+  max-width: 25%;
+  top: 260%;
+  right: auto;
+  z-index: 100;
+}
+
+#selva_t3{
+  font-size: 0.5vw;
+  color: white;
+  background-color: black;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 0.3%;
+  left:25%;
+  max-width: 40%;
+  top: 320%;
+  right: auto;
+}
+
+
+#selva_i4_1{
+  position: absolute;
+  padding: 1%;
+  left: 1%;
+  max-width: 60%;
+  top: 370%;
+  right: auto;
+  z-index: 100;
+}
+
+
+#selva_i4_2{
+  position: absolute;
+  padding: 1%;
+  left: 50%;
+  max-width: 60%;
+  top: 410%;
+  right: auto;
+  z-index: 200;
+}
+
+
+
+#selva_t5{
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 2%;
+  left:24%;
+  max-width: 50%;
+  top: 540%;
+  right: auto;
+}
+
+
+#selva_t6{
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.3;
+  position: absolute;
+  padding: 2%;
+  left:24%;
+  max-width: 38%;
+  top: 670%;
+  right: auto;
 }
