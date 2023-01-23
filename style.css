@@ -8,8 +8,6 @@
     overflow: hidden;
   }
   
-
-
   
   body {
     background-color: none;
@@ -21,6 +19,8 @@
     height: 100%;
     place-items: center center;
     margin: 0 auto; 
+    font-family: 'Roboto Mono', monospace;
+
   }
   
 
@@ -46,7 +46,41 @@
 
   #botonmenu:hover{
     filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
-    /*
-    box-shadow: inset 0px 0px 5rem 0.5rem  rgb(255, 255, 255) ,  0px 0px 5rem 1.7rem  rgb(255, 255, 255);
-    */
 }
+
+
+.readinglink{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  display: block;
+  background-color: transparent;
+  border: none;
+  z-index: 900;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.hover {
+  pointer-events: none;
+  display: inline-block;
+  position: absolute;
+}
+
+ 
+.readingimg {
+  display: none;
+  width: 40%;
+  
+}
+
+.readinglink:hover+.readingimg  {
+  display: inline-block;
+  position:absolute;
+  right: 0%;
+  z-index: 1000;
+  width: auto;
+  height: 100%;
+  }
+

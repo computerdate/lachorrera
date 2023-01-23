@@ -76,3 +76,27 @@ body {
   left: 70%;
   display: block;
 }
+
+
+#T4{
+  position: absolute;
+  top: 110%;
+  left: 10%;
+  display: block;
+}
+
+
+#T5{
+  position: absolute;
+  top: 110%;
+  left: 40%;
+  display: block;
+}
+
+
+#T6{
+  position: absolute;
+  top: 110%;
+  left: 70%;
+  display: block;
+}

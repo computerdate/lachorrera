@@ -4,10 +4,9 @@
   -moz-user-select: -moz-none;
   user-select: none;
   margin: 0 auto; 
-  font-family: sans-serif;
+  font-family: 'Inconsolata', monospace;
   /*overflow: hidden;*/
 }
-
 
 
 
@@ -40,4 +39,165 @@ body {
   padding: 15px;
   border-radius: 4px;
   transition: 0.3s;
+}
+
+
+#text_i0{
+  position: absolute;
+  padding: 1%;
+  left: 33%;
+  max-width: 40%;
+  top: 7%;
+  right: auto;
+  z-index: 100;
+}
+
+
+#T1{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#T2{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#T3{
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#T4{
+  position: absolute;
+  top: 130%;
+  left: 10%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#T5{
+  position: absolute;
+  top: 130%;
+  left: 40%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#T6{
+  position: absolute;
+  top: 130%;
+  left: 70%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#T7{
+  position: absolute;
+  top: 225%;
+  left: 10%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#T8{
+  position: absolute;
+  top: 225%;
+  left: 40%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#T9{
+  position: absolute;
+  top: 225%;
+  left: 70%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#T10{
+  position: absolute;
+  top: 300%;
+  left: 20%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#T11{
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#L1{
+  position: absolute;
+  top: 370%;
+  left: 3%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#L2{
+  position: absolute;
+  top: 370%;
+  left: 31%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#L3{
+  position: absolute;
+  top: 365%;
+  left: 47%;
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+
+#L4{
+  position: absolute;
+  top: 370%;
+  left: 75%;
+  display: block;
+  background: transparent;
+  border: none;
 }
