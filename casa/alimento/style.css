@@ -12,7 +12,6 @@ body {
   background-color: black;
   background-size: contain;
   background-position: center center;
-  background-image: url('https://d2w9rnfcy7mm78.cloudfront.net/19093519/original_3d04ea3fc483cb0e5e042729737d59a2.jpg?1669069423?bc=0');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -120,7 +119,7 @@ img {
   padding: 0.3%;
   left:6%;
   max-width: 40%;
-  top: 340%;
+  top: 350%;
   right: auto;
 }
 
